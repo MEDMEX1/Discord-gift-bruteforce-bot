@@ -24,9 +24,4 @@ async def start(ctx):
         await asyncio.sleep(r.randint(2,5))
 
 
-@client.command(pass_context=True)
-async def test(ctx):
-    channel = ctx.message.channel
-    await client.send_message(channel, "https://discord.gift/" + "rhlRY2HnxMk2JDAK")
-
 client.run(")
